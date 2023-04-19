@@ -19,8 +19,8 @@
     <div id="home" class="flex-column flex-center">
       <h1>Welcome to the Directors Quiz !</h1>
       <a href="#" class="btn-home-page-play">Play</a>
-      <a href="/rules.html" class="btn-home-page-rules">Rules</a>
-      <a href="/highscore.html" class="btn-home-page-scores">High Scores</a>
+      <a href="#" class="btn-home-page-rules">Rules</a>
+      <a href="#" class="btn-home-page-scores">High Scores</a>
     </div>
    </div>
 
@@ -28,11 +28,44 @@
      <div class="content-center hide-director">
     <div id="select-director" class="flex-column flex-center">
       <h1>Select a Director to Play</h1>
-      <button id="btn-director-ss"><img src="assets/images/steven-icon.webp" alt="Steven Spielberg face icon"></button>
-      <button id="btn-director-tb"><img src="assets/images/tim-burton-icon.webp" alt="Tim Burton face icon"></button>
-      <button id="btn-director-ah"><img src="assets/images/alfred-hitchcock-icon.webp" alt="Alfred Hitchcock face icon"></button>
+      <a href="#" id="btn-director-ss"><img src="assets/images/steven-icon.webp" alt="Steven Spielberg face icon"></a>
+      <a href="#" id="btn-director-tb"><img src="assets/images/tim-burton-icon.webp" alt="Tim Burton face icon"></a>
+      <a href="#" id="btn-director-ah"><img src="assets/images/alfred-hitchcock-icon.webp" alt="Alfred Hitchcock face icon"></a>
     </div>
    </div>
+
+   <div class="content-center hide-quiz">
+    <div id="quiz" class="flex-column flex-center">
+      <h2 id="question">What is the answer:</h2>
+      <div class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text" data-number="1">Choice 1</p>
+      </div>
+
+      <div class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text" data-number="2">Choice 2</p>
+      </div>
+
+      <div class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text" data-number="3">Choice 3</p>
+      </div>
+
+      <div class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text" data-number="4">Choice 4</p>
+      </div>
+    </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/53683c2250.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
 
     <script src="assets/js/index.js"></script>
     <script src="assets/js/quiz.js"></script>
